@@ -9,7 +9,7 @@ class LinterRubocop extends Linter
 
   # A string, list, tuple or callable that returns a string, list or tuple,
   # containing the command line (with arguments) used to lint.
-  cmd: 'rubocop --format emacs'
+  cmd: 'rubocop --format emacs --force-exclusion'
 
   linterName: 'rubocop'
 
